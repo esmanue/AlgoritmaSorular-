@@ -8,4 +8,4 @@ for x in range(len(a)):
         print('aradiginiz sayi',sira,". siradadir")
         break
     else:
-        sira+=1 
+        sira+=1 #esit değilse arama yapip sirayi arttirmaya devam eder
