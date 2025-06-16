@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Lshsa_DG9tuZXYdFpSc7" name="Page-1">
-        <mxGraphModel dx="1072" dy="1475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="416" dy="1603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -110,7 +110,7 @@
                 <mxCell id="28" value="basla" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="840" y="80" width="120" height="50" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" value="sira=1&lt;div&gt;i=0&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="29" value="sira=0&lt;div&gt;i=0&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="855" y="170" width="90" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="30" value="minval!=array[i]" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -120,7 +120,7 @@
                     <mxGeometry x="860" y="370" width="90" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="bitir" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="1020" y="260" width="120" height="50" as="geometry"/>
+                    <mxGeometry x="1170" y="265" width="120" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -138,6 +138,11 @@
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="899.17" y="330" as="sourcePoint"/>
                         <mxPoint x="899.17" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="evet" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="35">
+                    <mxGeometry x="-0.42" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="36" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
@@ -163,6 +168,12 @@
                 </mxCell>
                 <mxCell id="39" value="minvalin arraydeki sıra numarasini dondurur&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="990" y="180" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="40" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="sira=sira+1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1020" y="275" width="100" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
